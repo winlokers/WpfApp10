@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="1.png.png" />
+    <None Remove="2022-01-24_13-17-23.png" />
+    <None Remove="2022-01-24_13-19-47.png" />
+    <None Remove="2022-01-24_13-21-59.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="1.png.png" />
+    <Resource Include="2022-01-24_13-17-23.png" />
+    <Resource Include="2022-01-24_13-19-47.png" />
+    <Resource Include="2022-01-24_13-21-59.png" />
+  </ItemGroup>
+
+</Project>
